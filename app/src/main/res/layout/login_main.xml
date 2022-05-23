@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu"
+            android:background="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="Manless Cafe System"
+            android:textColor="#000000"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="100dp"
+        android:layout_marginBottom="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="로그인"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ID"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#B0AEE6FF"
+            android:hint="ID를 입력하세요."
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/PW"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#B0AEE6FF"
+            android:hint="패스워드를 입력하세요."
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="로그인"
+                android:layout_marginRight="10dp"
+                android:background="#D7C0FF"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/sign_up"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="회원가입"
+                android:layout_marginLeft="10dp"
+                android:background="#D7C0FF"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/find"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="아이디/비밀번호 찾기"
+            android:layout_marginLeft="100dp"
+            android:background="#D7C0FF"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/BtnUser"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/user"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/BtnReservation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:src="@drawable/calendar"
+            android:scaleType="fitCenter"
+            android:textColor="#000000"
+            android:text="예약" />
+
+        <ImageButton
+            android:id="@+id/BtnHome"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/home"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:id="@+id/BtnPay"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/charge"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/BtnEct"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="#FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ect" />
+
+    </LinearLayout>
+</LinearLayout>

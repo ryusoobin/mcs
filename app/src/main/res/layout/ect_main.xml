@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu"
+            android:background="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="Manless Cafe System"
+            android:textColor="#000000"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="575dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/BtnUser"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/user"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/BtnReservation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:src="@drawable/calendar"
+            android:scaleType="fitCenter"
+            android:textColor="#000000"
+            android:text="예약" />
+
+        <ImageButton
+            android:id="@+id/BtnHome"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/home"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:id="@+id/BtnPay"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/charge"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/BtnEct"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ect"
+            android:background="#FFFFFF"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+</LinearLayout>
